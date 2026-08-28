@@ -60,6 +60,13 @@ pip install requests deepeval
 Dependências extras conforme o provedor escolhido: `pip install ollama` (juiz local) ou
 `pip install google-genai` (juiz via Gemini).
 
+## Execução da suíte de avaliação
+
+Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+
 ## Configuração
 
 Tudo é configurado por **variáveis de ambiente** — nenhuma chave fica no código.
